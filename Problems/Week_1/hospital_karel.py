@@ -1,7 +1,7 @@
 from karel.stanfordkarel import *
 
 def main():
-    #MOve and find the supplies
+    #Move and find the supplies
     while front_is_clear():
         if beepers_present():
             build_hospital()
